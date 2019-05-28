@@ -1,0 +1,9 @@
+<h4 class="heading text-center">{{ with .Site.Params.clients_list.title }}{{ . | markdownify }}{{ end }}</h4>
+<div class="row">
+  {{ range .Site.Params.clients }}
+    <div class="col-md-6 col text-center">
+      <blockquote>{{ .text }}</blockquote>
+      - {{ .name }}
+    </div>
+  {{ end }}
+</div>

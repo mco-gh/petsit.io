@@ -1,0 +1,40 @@
+{{ "<!-- Services -->" | safeHTML }}
+<section id="services">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <h2 class="section-heading">{{ with .Site.Params.services.title }}{{.}}{{ end }}</h2>
+      </div>
+      </span>
+    </div>
+    <div class="row">
+      <span class="col-md-4"></span>
+      <span class="col-md-5">
+      <ul>
+<li><h4><strong>Small groups</strong> with up to 3 dogs per walker</h4></li>
+<li><h4><strong>60 minutes</strong> of exercise and fun!</h4></li>
+<li><h4><strong>Fully insured</strong> with CRB checks</hr></li>
+<li><h4>Walks/playtime start around midday</h4></li>
+<li><h4><strong>Outings to:</strong> Hampstead Heath,<br>Highgate Wood, Waterlow Park,<br>Alexandra Park, Priory Park, Clissold Park</h4></li>
+</ul>
+<br>
+<br>
+      </span>
+    </div>
+    <br>
+      {{ range .Site.Params.services.row }}
+      <div class="row text-center">
+        {{ range .list }}
+          <div class="col-md-4" style="font-size: 16px">
+            <span class="fa-stack fa-4x">
+              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+              <i class="fa {{ .icon }} fa-stack-1x fa-inverse"></i>
+            </span>
+            <h3 class="service-heading">{{ if .url }}<a href="{{ .url | absURL }}">{{ .title | markdownify }}</a>{{ else }}{{ .title | markdownify }}{{ end }}</h3>
+            <p style="font-size: 16px">{{ .description | markdownify }}</p>
+          </div>
+        {{ end }}
+      </div>
+    {{ end }}
+  </div>
+</section>
