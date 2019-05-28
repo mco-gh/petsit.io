@@ -2,13 +2,13 @@
 
 [![Build Status](https://travis-ci.org/marcacohen/gdogmate.com.svg?branch=master)](https://travis-ci.org/marcacohen/gdogmate.com)
 
-This is the source repo for Kimberly's & Sally's business,
-[gdogmate.com](https://www.gdogmate.com).
+This is the source repo for Romi's petaitting business,
+[petsit.io](https://petsit.io).
 It's based on Seth MacLeod's [Dimension theme for Hugo](https://github.com/sethmacleod/dimension).
 
 ## License
 
-Copyright 2017, Marc A. Cohen
+Copyright 2019, Marc A. Cohen
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
 

@@ -2,7 +2,7 @@
 languageCode = "en-us"
 defaultContentLanguage = "en-us"
 title = "G'Dog Mate!"
-baseurl = "https://gdogmate.com/"
+baseurl = "https://petsit.io/"
 #theme = "hugo-agency-theme"
 paginate = 10
 # Enter your tracking code to enable Google Analytics
@@ -14,7 +14,7 @@ googleAnalytics = ""
   archive = "archives"
 
 [params]
-  title = "G'Dog Mate!"
+  title = "petsit.io"
   site_author = "Marc Cohen"
   # You can use Markdown syntax for urls [text](//url.to/source) or
   # most longer texts.
@@ -54,9 +54,9 @@ googleAnalytics = ""
 
   # Navigation
   [params.navigation]
-    brand = "G'Dog, Mate!"
+    brand = "petsit.io"
     # Optional logo as brand stored in img/
-    logo = "gdogmate.png"
+    logo = "petsit.png"
     mission = "Mission"
     services = "Services & Prices"
     team = "Team"
