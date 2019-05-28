@@ -94,20 +94,9 @@ googleAnalytics = ""
     enable = true
     title = "Our Mission"
     subtitle = """
-Our mission is to provide your dog with exercise, fresh air, and
-the opportunity to socialise and play, while receiving the
-attention and care that you yourself would give them. We take
-groups of no more than 3 dogs per walker across many of North
-London’s wonderful parks. Other dog walking services allow as
-many as 6 dogs per walker (some even more!), which, we
-believe, compromises their safety and the level of care they
-receive. With us, your dog will not spend any walking time being
-transported in the back of a van and you will always know
-exactly who is taking care of him/her, because it will be me, with
-the occasional help of another dog loving, caring and
-experienced walker.
+Our mission is...
 <br><br>
-- Sally
+- Romi
 """
 
   # Services section
@@ -171,11 +160,11 @@ experienced walker.
     # Replace them with your own too.
     # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
     [[params.team.members]]
-      img = "sally.jpg"
-      name = "Sally-Anne"
+      img = "romi-clyro.jpg"
+      name = "Romi"
       #position = "co-founder"
       bio = """
-Hello, my name is Sally and I was born in the Peak District and my first best friend was Morgan, my childhood labrador (he took me for a walk!). I’ve many fond memories of long walks with Morgan around the Derbyshire Dales, before emigrating to Australia, where I grew up with cats, dogs, horses, sheep and even a pet Blue Tongue Lizard! I moved back to the UK in 1995 and adopted a lovely little rescue dog from Battersea, whom I named Charlie. I have not found a job more rewarding than spending my time caring for and walking four-legged friends, hence starting up g'dogmate.
+Hello, my name is Romi...
       """
 
       #[[params.team.members]]
@@ -220,7 +209,7 @@ Hello, my name is Sally and I was born in the Peak District and my first best fr
     headline= "Contact us"
     description = "Give us a call and we will get back to you as soon as possible!"
     buttonText = "Send message"
-    phone = "07879 642778"
+    phone = "809 114766"
 
     # Since this template is static, the contact form uses www.formspree.io as a
     # proxy. The form makes a POST request to their servers to send the actual
