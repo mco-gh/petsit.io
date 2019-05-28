@@ -1,6 +1,6 @@
-# gdogmate.com
+# petsit.io
 
-[![Build Status](https://travis-ci.org/marcacohen/gdogmate.com.svg?branch=master)](https://travis-ci.org/marcacohen/gdogmate.com)
+[![Build Status](https://travis-ci.org/marcacohen/petsit.io.svg?branch=master)](https://travis-ci.org/marcacohen/petsit.io)
 
 This is the source repo for Romi's petaitting business,
 [petsit.io](https://petsit.io).

@@ -240,7 +240,7 @@ Hello, my name is Sally and I was born in the Peak District and my first best fr
     # add some custom JS script to finish the implementation.
     # postURL = "https://example.com/mailout/"
 
-    # email = "gdogmate@gmail.com"
+    # email = "romciamaria@gmail.com"
 
     # Success and error message overwrite for async contact form
     thanks = "Thank you for contacting us."
