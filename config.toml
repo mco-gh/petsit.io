@@ -84,7 +84,7 @@ googleAnalytics = ""
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
     title = "G'Dog Mate!"
-    subtitle = "Down To Earth<br>Dog Walking Service"
+    subtitle = "Reliable, Caring Petsitting Service"
     buttonText = "Tell me more"
 
   # Mission section
@@ -209,7 +209,7 @@ Hello, my name is Romi...
     headline= "Contact us"
     description = "Give us a call and we will get back to you as soon as possible!"
     buttonText = "Send message"
-    phone = "809 114766"
+    phone = "(0)7809 114766"
 
     # Since this template is static, the contact form uses www.formspree.io as a
     # proxy. The form makes a POST request to their servers to send the actual
