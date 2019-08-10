@@ -94,7 +94,9 @@ googleAnalytics = ""
     enable = true
     title = "Mission"
     subtitle = """
+<span style="font-size: 24px">
 My mission is to provide your beloved friend with a wonderful time and deliver you peace of mind. Being a pet owner myself, I do appreciate the stress of entrusting a total stranger with taking care of your beloved pet. My aim is to make your experience stress free by delivering tailored service according to your requirements.
+</span>
 """
 
   # Services section
@@ -192,7 +194,7 @@ I’m also very active and affectionate, so you can rest assured that your pet w
   [params.contact]
     enable = true
     headline= "Contact Me"
-    description = "Call or email and I will get back to you as soon as possible!"
+    description = " "
     buttonText = "Send message"
     phone = "(0)7809 114766"
     email = "romciamaria@gmail.com"

@@ -815,6 +815,7 @@ section#contact {
 section#contact .section-heading {
     color: #fed136;
     font-weight: bold;
+    font-size: 30px;
     text-shadow: 5px 5px 5px black;
 }
 
@@ -825,6 +826,7 @@ section#contact hr {
 section#contact h4{
     color: #fed136;
     font-weight: bold;
+    font-size: 24px;
     text-shadow: 5px 5px 5px black;
 }
 
