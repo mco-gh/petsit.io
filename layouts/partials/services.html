@@ -10,22 +10,15 @@
     <div class="row">
       <span class="col-md-4"></span>
       <span class="col-md-5">
-      <ul>
-<li><h4><strong>Small groups</strong> with up to 3 dogs per walker</h4></li>
-<li><h4><strong>60 minutes</strong> of exercise and fun!</h4></li>
-<li><h4><strong>Fully insured</strong> with CRB checks</hr></li>
-<li><h4>Walks/playtime start around midday</h4></li>
-<li><h4><strong>Outings to:</strong> Hampstead Heath,<br>Highgate Wood, Waterlow Park,<br>Alexandra Park, Priory Park, Clissold Park</h4></li>
-</ul>
-<br>
-<br>
+      <ul class="font-size: 16">
+      </ul>
       </span>
     </div>
     <br>
       {{ range .Site.Params.services.row }}
       <div class="row text-center">
         {{ range .list }}
-          <div class="col-md-4" style="font-size: 16px">
+          <div class="col-md-6" style="font-size: 16px">
             <span class="fa-stack fa-4x">
               <i class="fa fa-circle fa-stack-2x text-primary"></i>
               <i class="fa {{ .icon }} fa-stack-1x fa-inverse"></i>

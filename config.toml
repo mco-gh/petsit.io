@@ -59,7 +59,7 @@ googleAnalytics = ""
     logo = "petsit.png"
     mission = "Mission"
     services = "Services & Prices"
-    team = "Team"
+    team = "About"
     portfolio = "Gallery"
     contact = "Contact"
 
@@ -84,7 +84,7 @@ googleAnalytics = ""
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
     title = "G'Dog Mate!"
-    subtitle = "Reliable, Caring Petsitting Service"
+    subtitle = "Loving and Reliable Petsitting Service"
     buttonText = "Tell me more"
 
   # Mission section
@@ -92,11 +92,9 @@ googleAnalytics = ""
     # To change the background image of the mission, replace 'mission.jpg' in
     # the 'static/img' folder.
     enable = true
-    title = "Our Mission"
+    title = "Mission"
     subtitle = """
-Our mission is...
-<br><br>
-- Romi
+My mission is to provide your beloved friend with a wonderful time and deliver you peace of mind. Being a pet owner myself, I do appreciate the stress of entrusting a total stranger with taking care of your beloved pet. My aim is to make your experience stress free by delivering tailored service according to your requirements.
 """
 
   # Services section
@@ -106,43 +104,32 @@ Our mission is...
 
     [[params.services.row]]
 
-    [[params.services.row.list]]
-      icon = "fa-clock-o"
-      title = "Schedule"
-      description = """
-
-##### **Midday Walk**
-##### **(approx. timings depending on traffic, weather and fun being had)**
-
-11:30am-12:00pm pick-up<br>
-12:00-1:00pm walk/run around park (if a lovely sunny day, we don't watch the clock!)<br>
-1:00-1:30pm drop-off
-
-"""
       url = "#"
 
     [[params.services.row.list]]
       icon = "fa-gbp"
       title = "Fees"
       description = """
-£15 per 60 minute walk<br />
-£10 per addl. dog from same household<br />
-
-##### **First walk free of charge!**
-                    """
-#<strong>Dogs require microchips and should be up-to-date on vaccinations, flea treatment, and worming.</strong>
-
+<ul style="text-align:left">
+<li>Dog walking : from £ 12 per 30 minute solo walk</li>
+<li>Dog sitting: from £ 25</li>
+<li>Live in: from £43 per day; £15 for additional dog</li>
+<li>Dog boarding: £ 42 per day; £15 for additional dog</li>
+<li>Cat sitting: regular 30 minute visit from £12; two regular visits per day from £22 per day; longer visits ( at least one hour) £19 and £37 respectively.</li>
+</ul>
+"""
       url = "#"
 
     [[params.services.row.list]]
       icon = "fa-paw"
-      title = "Additional Services"
+      title = "Services"
       description = """
 <ul style="text-align:left">
-<li>Free collection and drop-off (small fee beyond 2-mile radius from N8)</li>
-<li>Towel dry and fresh water at drop-off</li>
-<li>Video featuring a collection of pics from your furry friends weekly adventures sent direct to you via WhatsApp or on Instagram</li>
-<li>Home visits available for pets who only need a short bathroom break, or require medication or feeding and a cuddle during the day (call me to enquire)</li>
+<li>Dog walking, Sitting, Live in, and Boarding</li>
+<li>Cat feed & play, Cat live in</li>
+<li>Fully insured and DBS checked</li>
+<li>References available upon request</li>
+<li>Home visits available for bathroom breaks, medication, feeding and company (contact me to enquire)</li>
 </ul>
                     """
       url = "#"
@@ -164,7 +151,8 @@ Our mission is...
       name = "Romi"
       #position = "co-founder"
       bio = """
-Hello, my name is Romi...
+I’m an experienced cat and dog owner. I look after my four legged clients in a way I would like a cat/dog sitter to look after my own cat or dog. I’m a mature person who is organised, trustworthy and reliable. I’m very punctual, flexible and adaptable.
+I’m also very active and affectionate, so you can rest assured that your pet will get plenty of exercise, cuddles and love. I live in Belsize Park area, in close proximity to Hampstead Heath, Primrose Hill and Regents Park.
       """
 
       #[[params.team.members]]
@@ -206,10 +194,11 @@ Hello, my name is Romi...
   # Contact section
   [params.contact]
     enable = true
-    headline= "Contact us"
-    description = "Give us a call and we will get back to you as soon as possible!"
+    headline= "Contact Me"
+    description = "Call or email and I will get back to you as soon as possible!"
     buttonText = "Send message"
     phone = "(0)7809 114766"
+    email = "romciamaria@gmail.com"
 
     # Since this template is static, the contact form uses www.formspree.io as a
     # proxy. The form makes a POST request to their servers to send the actual
@@ -232,8 +221,8 @@ Hello, my name is Romi...
     # email = "romciamaria@gmail.com"
 
     # Success and error message overwrite for async contact form
-    thanks = "Thank you for contacting us."
-    error = "Message could not be sent. Please contact us at mail@example.com instead."
+    thanks = "Thank you for contacting me."
+    error = "Message could not be sent. Please contact me at mail@example.com instead."
 
     # 'warning' defines error messages for invalid inputs
     [params.contact.form.name]
