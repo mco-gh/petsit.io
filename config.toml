@@ -1,7 +1,7 @@
 # Site settings
 languageCode = "en-us"
 defaultContentLanguage = "en-us"
-title = "G'Dog Mate!"
+title = "petsit.io"
 baseurl = "https://petsit.io/"
 #theme = "hugo-agency-theme"
 paginate = 10
@@ -83,7 +83,7 @@ googleAnalytics = ""
   [params.hero]
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
-    title = "G'Dog Mate!"
+    title = "petsit.io"
     subtitle = "Loving and Reliable Petsitting Service"
     buttonText = "Tell me more"
 
@@ -139,7 +139,7 @@ My mission is to provide your beloved friend with a wonderful time and deliver y
     enable = true
     # Possibility to center items
     #center = true
-    title = "About Me"
+    title = "About Romi"
     subtitle = ""
     description = ""
 
@@ -148,17 +148,14 @@ My mission is to provide your beloved friend with a wonderful time and deliver y
     # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
     [[params.team.members]]
       img = "romi-clyro.jpg"
-      name = "Romi"
-      #position = "co-founder"
+
+      [[params.team.members]]
       bio = """
+<span style="font-size: 20px">
 I’m an experienced cat and dog owner. I look after my four legged clients in a way I would like a cat/dog sitter to look after my own cat or dog. I’m a mature person who is organised, trustworthy and reliable. I’m very punctual, flexible and adaptable.
 I’m also very active and affectionate, so you can rest assured that your pet will get plenty of exercise, cuddles and love. I live in Belsize Park area, in close proximity to Hampstead Heath, Primrose Hill and Regents Park.
+</span>
       """
-
-      #[[params.team.members]]
-      #img = "yourdog.jpg"
-      #name = "Your Dog"
-      #position = "client"
 
   # Portfolio section
   [params.portfolio]
