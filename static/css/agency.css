@@ -805,14 +805,27 @@ aside .heading {
 }
 
 section#contact {
-    background-color: #222;
-    background-image: url(../img/map-image.png);
+    /* background-color: #222; */
+    background-image: url(../img/contact2.jpg);
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 section#contact .section-heading {
-    color: #fff;
+    color: #fed136;
+    font-weight: bold;
+    text-shadow: 3px 3px #000;
+}
+
+section#contact hr {
+    border-color: #fed136;
+}
+
+section#contact h4{
+    color: #fed136;
+    font-weight: bold;
+    text-shadow: 2px 2px #000;
 }
 
 section#contact .form-group {
