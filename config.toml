@@ -56,7 +56,7 @@ googleAnalytics = ""
   [params.navigation]
     brand = "petsit.io"
     # Optional logo as brand stored in img/
-    logo = "petsit.png"
+    #logo = "petsit.png"
     mission = "Mission"
     services = "Services & Prices"
     team = "About"
