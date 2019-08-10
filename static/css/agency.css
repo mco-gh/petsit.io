@@ -815,7 +815,7 @@ section#contact {
 section#contact .section-heading {
     color: #fed136;
     font-weight: bold;
-    text-shadow: 3px 3px #000;
+    text-shadow: 5px 5px 5px black;
 }
 
 section#contact hr {
@@ -825,7 +825,7 @@ section#contact hr {
 section#contact h4{
     color: #fed136;
     font-weight: bold;
-    text-shadow: 2px 2px #000;
+    text-shadow: 5px 5px 5px black;
 }
 
 section#contact .form-group {
