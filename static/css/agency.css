@@ -30,7 +30,7 @@ body {
 }
 
 .text-primary {
-    color: #fed136;
+    color: #fec503;
 }
 
 p {
@@ -51,7 +51,7 @@ a.active {
 }
 
 a {
-    color: #fed136;
+    color: #fec503;
 }
 
 a:hover,
@@ -88,12 +88,12 @@ h6 {
 }
 
 .btn-primary {
-    border-color: #fed136;
+    border-color: #fec503;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #fff;
-    background-color: #fed136;
+    background-color: #fec503;
 }
 
 .btn-primary:hover,
@@ -127,26 +127,25 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-    border-color: #fed136;
-    background-color: #fed136;
+    border-color: #fec503;
+    background-color: #fec503;
 }
 
 .btn-primary .badge {
-    color: #fed136;
+    color: #fec503;
     background-color: #fff;
 }
 
 .btn-xl {
     padding: 10px 20px;
-    border-color: #fed136;
+    border-color: #fec503;
     border-radius: 3px;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 14px;
     font-weight: 700;
-    //color: #fff;
     color: black;
-    background-color: #fed136;
+    background-color: #fec503;
 }
 
 .btn-xl:hover,
@@ -180,12 +179,12 @@ fieldset[disabled] .btn-xl:active,
 .btn-xl.disabled.active,
 .btn-xl[disabled].active,
 fieldset[disabled] .btn-xl.active {
-    border-color: #fed136;
-    background-color: #fed136;
+    border-color: #fec503;
+    background-color: #fec503;
 }
 
 .btn-xl .badge {
-    color: #fed136;
+    color: #fec503;
     background-color: #fff;
 }
 
@@ -198,7 +197,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-brand {
     /*font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;*/
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    color: #fed136;
+    color: #fec503;
 }
 
 .navbar-default .navbar-brand:hover,
@@ -235,8 +234,8 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-toggle {
-    border-color: #fed136;
-    background-color: #fed136;
+    border-color: #fec503;
+    background-color: #fec503;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -245,7 +244,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-    background-color: #fed136;
+    background-color: #fec503;
 }
 
 .navbar-default .nav li a {
@@ -259,13 +258,13 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 0;
-    color: #fed136;
+    color: #fec503;
 }
 
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
     color: #fff;
-    background-color: #fed136;
+    background-color: #fec503;
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
@@ -324,9 +323,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-color: black;
-    /*
-    background-image: url(../img/mission-bg.png);
+    background-image: url(../img/mission.jpg);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -334,7 +331,6 @@ header {
     background-size: cover;
     -o-background-size: cover;
     height: 100%;
-    */
 }
 
 header .intro-text {
@@ -364,11 +360,13 @@ header .intro-text .intro-heading {
 }
 
 .mission-text {
+    line-height: 30px;
+    padding-top: 10%;
+    text-shadow: 5px 5px 5px black;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 18px;
+    font-size: 48px;
     color: #fec503;
     font-weight: 900;
-    line-height: 30px;
 }
 
 @media(min-width:768px) {
@@ -388,7 +386,6 @@ header .intro-text .intro-heading {
 
     header .intro-text .intro-heading {
         padding-top: 20%;
-        /*text-transform: uppercase;*/
         text-shadow: 5px 5px 5px black;
         font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 36px;
@@ -406,7 +403,9 @@ section {
 
 section h2.section-heading {
     margin-top: 5%;
-    font-size: 30px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #fec503;
 }
 
 section h3.section-subheading {
@@ -577,7 +576,7 @@ section h3.section-subheading {
     border-radius: 100%;
     text-align: center;
     color: #fff;
-    background-color: #fed136;
+    background-color: #fec503;
 }
 
 .timeline>li .timeline-image h4 {
@@ -730,6 +729,12 @@ section h3.section-subheading {
 .team-member {
     margin-bottom: 50px;
     text-align: center;
+    line-height: 30px;
+    padding-top: 10%;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 48px;
+    color: #fec503;
+    font-weight: bold;
 }
 
 .team-member img {
@@ -813,18 +818,19 @@ section#contact {
 }
 
 section#contact .section-heading {
-    color: #fed136;
+    color: #fec503;
+    font-weight: bold;
     font-weight: bold;
     font-size: 30px;
     text-shadow: 5px 5px 5px black;
 }
 
 section#contact hr {
-    border-color: #fed136;
+    border-color: #fec503;
 }
 
 section#contact h4{
-    color: #fed136;
+    color: #fec503;
     font-weight: bold;
     font-size: 24px;
     text-shadow: 5px 5px 5px black;
@@ -848,7 +854,7 @@ section#contact .form-group textarea.form-control {
 }
 
 section#contact .form-control:focus {
-    border-color: #fed136;
+    border-color: #fec503;
     box-shadow: none;
 }
 
@@ -931,7 +937,7 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-    background-color: #fed136;
+    background-color: #fec503;
 }
 
 .btn:focus,
@@ -1020,12 +1026,12 @@ ul.social-buttons li a:active {
 
 ::-moz-selection {
     text-shadow: none;
-    background: #fed136;
+    background: #fec503;
 }
 
 ::selection {
     text-shadow: none;
-    background: #fed136;
+    background: #fec503;
 }
 
 img::selection {
@@ -1037,5 +1043,5 @@ img::-moz-selection {
 }
 
 body {
-    webkit-tap-highlight-color: #fed136;
-}-
+    webkit-tap-highlight-color: #fec503;
+}
