@@ -361,7 +361,6 @@ header .intro-text .intro-heading {
 
 .mission-text {
     line-height: 30px;
-    padding-top: 10%;
     text-shadow: 5px 5px 5px black;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 48px;
@@ -730,7 +729,6 @@ section h3.section-subheading {
     margin-bottom: 50px;
     text-align: center;
     line-height: 30px;
-    padding-top: 10%;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 48px;
     color: #fec503;
