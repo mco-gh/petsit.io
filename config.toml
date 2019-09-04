@@ -95,7 +95,9 @@ googleAnalytics = ""
     title = "Mission"
     subtitle = """
 <span style="font-size: 24px">
-My mission is to provide your beloved friend with a wonderful time and deliver you peace of mind. Being a pet owner myself, I do appreciate the stress of entrusting a total stranger with taking care of your beloved pet. My aim is to make your experience stress free by delivering tailored service according to your requirements.
+My mission is to provide your beloved friend with a wonderful time and deliver you peace of mind. Being a pet owner myself, I do appreciate the stress of entrusting a total stranger with taking care of your beloved pet. My aim is to make your experience stress free by delivering tailored service according to your requirements. Bigger companies may change less but some of your dog's time may be spent
+waiting in a van for their turn to be walked. 
+I care for only one pet at a time, so an hour booked with me is an hour fully devoted to your pet's loving care.
 </span>
 """
 
@@ -113,10 +115,10 @@ My mission is to provide your beloved friend with a wonderful time and deliver y
       title = "Fees"
       description = """
 <ul style="text-align:left">
-<li>Dog walking : from £ 12 per 30 minute solo walk</li>
-<li>Dog sitting: from £ 25</li>
-<li>Live in: from £43 per day; £15 for additional dog</li>
-<li>Dog boarding: £ 42 per day; £15 for additional dog</li>
+<li>Dog walking : from £12 per 30 minute solo walk</li>
+<li>Dog sitting: from £25</li>
+<li>Dog live in: from £40 per day, £12 for additional dog
+<li>Dog boarding: from £ 38, £12 for additional dog
 <li>Cat sitting: regular 30 minute visit from £12; two regular visits per day from £22 per day; longer visits ( at least one hour) £19 and £37 respectively.</li>
 </ul>
 """
