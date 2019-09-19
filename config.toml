@@ -104,25 +104,25 @@ I care for only one pet at a time, so an hour booked with me is an hour fully de
   # Services section
   [params.services]
     enable = true
-    title = "Services & Prices"
+    title = "Services"
 
     [[params.services.row]]
 
       url = "#"
 
-    [[params.services.row.list]]
-      icon = "fa-gbp"
-      title = "Fees"
-      description = """
-<ul style="text-align:left">
-<li>Dog walking : from £12 per 30 minute solo walk</li>
-<li>Dog sitting: from £25</li>
-<li>Dog live in: from £40 per day, £12 for additional dog
-<li>Dog boarding: from £ 38, £12 for additional dog
-<li>Cat sitting: regular 30 minute visit from £12; two regular visits per day from £22 per day; longer visits ( at least one hour) £19 and £37 respectively.</li>
-</ul>
-"""
-      url = "#"
+#    [[params.services.row.list]]
+#      icon = "fa-gbp"
+#      title = "Fees"
+#      description = """
+#<ul style="text-align:left">
+#<li>Dog walking : from £12 per 30 minute solo walk</li>
+#<li>Dog sitting: from £25</li>
+#<li>Dog live in: from £40 per day, £12 for additional dog
+#<li>Dog boarding: from £ 38, £12 for additional dog
+#<li>Cat sitting: regular 30 minute visit from £12; two regular visits per day from £22 per day; longer visits ( at least one hour) £19 and £37 respectively.</li>
+#</ul>
+#"""
+#      url = "#"
 
     [[params.services.row.list]]
       icon = "fa-paw"
