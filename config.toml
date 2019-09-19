@@ -58,7 +58,7 @@ googleAnalytics = ""
     # Optional logo as brand stored in img/
     #logo = "petsit.png"
     mission = "Mission"
-    services = "Services & Prices"
+    services = "Services"
     team = "About"
     portfolio = "Gallery"
     contact = "Contact"
