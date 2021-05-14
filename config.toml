@@ -6,7 +6,7 @@ baseurl = "https://petsit.io/"
 #theme = "hugo-agency-theme"
 paginate = 10
 # Enter your tracking code to enable Google Analytics
-googleAnalytics = ""
+googleAnalytics = "G-ES3M0G4406"
 
 [taxonomies]
   tag = "tags"
