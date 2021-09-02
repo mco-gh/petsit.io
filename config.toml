@@ -95,7 +95,7 @@ googleAnalytics = "G-ES3M0G4406"
     title = "Mission"
     subtitle = """
 <span style="font-size: 24px">
-My mission is to provide your beloved friend with a wonderful time and deliver you peace of mind. Being a pet owner myself, I do appreciate the stress of entrusting a total stranger with taking care of your cat or dog. My aim is to make your experience stress free by delivering service tailored to your requirements. Most of the time I walk one (maximum two) dogs at a time, so an hour booked with me is an hour fully devoted to your pet’s loving care with undivided attention.
+My mission is to provide your beloved friend with a wonderful time and deliver you peace of mind. Most of the time I walk one (maximum two) dogs at a time, so an hour booked with me is an hour fully devoted to your pet’s loving care with undivided attention.
 </span>
 """
 
@@ -152,7 +152,7 @@ My mission is to provide your beloved friend with a wonderful time and deliver y
       [[params.team.members]]
       bio = """
 <span style="font-size: 20px">
-I am an experienced cat and dog sitter. I look after my four legged clients in a way I would like a cat/dog sitter to look after my own cat or dog. I am a mature person who is organised, trustworthy and reliable. I am very punctual, flexible and adaptable. I live in the Belsize Park area, in close proximity to Hampstead Heath, Primrose Hill and Regents Park. For your peace of mind, I am DBS checked and can provide additional references.
+I'm an experienced cat and dog sitter. I look after my four legged clients in a way I would like a cat/dog sitter to look after my own cat or dog. I live in the Belsize Park area, in close proximity to Hampstead Heath, Primrose Hill and Regents Park. For your peace of mind, I am DBS checked and can provide additional references.
 </span>
       """
 
