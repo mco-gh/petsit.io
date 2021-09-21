@@ -141,7 +141,11 @@ My mission is to provide your beloved friend with a wonderful time and deliver y
     #center = true
     title = "About Romi & Gosia"
     subtitle = ""
-    description = ""
+    description = """
+<span style="font-size: 20px">
+We are experienced cat and dog sitters. We look after our four legged clients as if they are our own. We cover the Belsize Park and Hampton areas, For your peace of mind, we are DBS checked and can provide additional references.
+</span>
+      """
 
     # All team member's pictures are stored under 'static/img/team'.
     # Replace them with your own too.
@@ -150,13 +154,8 @@ My mission is to provide your beloved friend with a wonderful time and deliver y
       img = "romi-clyro.jpg"
 
 
-      [[params.team.members]]
+    [[params.team.members]]
       img = "gosia.jpg"
-      bio = """
-<span style="font-size: 20px">
-We are experienced cat and dog sitters. We look after our four legged clients as if they are our own. We cover the Belsize Park and Hampton areas, For your peace of mind, we are DBS checked and can provide additional references.
-</span>
-      """
 
   # Portfolio section
   [params.portfolio]
