@@ -8,6 +8,9 @@ paginate = 10
 # Enter your tracking code to enable Google Analytics
 googleAnalytics = "G-ES3M0G4406"
 
+[markup.goldmark.renderer]
+  unsafe= true
+
 [taxonomies]
   tag = "tags"
   category = "categories"
