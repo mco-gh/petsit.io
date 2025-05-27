@@ -194,7 +194,7 @@ I am an experienced cat and dog walker/sitter. I look after my four legged clien
     description = " "
     buttonText = "Send message"
     phone = "(0)7809 114766"
-    email = "romciamaria@gmail.com"
+    email = "petsit@gmail.com"
 
     # Since this template is static, the contact form uses www.formspree.io as a
     # proxy. The form makes a POST request to their servers to send the actual
@@ -214,7 +214,7 @@ I am an experienced cat and dog walker/sitter. I look after my four legged clien
     # add some custom JS script to finish the implementation.
     # postURL = "https://example.com/mailout/"
 
-    # email = "romciamaria@gmail.com"
+    # email = "petsit@gmail.com"
 
     # Success and error message overwrite for async contact form
     thanks = "Thank you for contacting me."
