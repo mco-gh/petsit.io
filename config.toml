@@ -194,7 +194,7 @@ I am an experienced cat and dog walker/sitter. I look after my four legged clien
     description = " "
     buttonText = "Send message"
     phone = "(0)7809 114766"
-    email = "petsit@gmail.com"
+    email = "petsitlondon@gmail.com"
 
     # Since this template is static, the contact form uses www.formspree.io as a
     # proxy. The form makes a POST request to their servers to send the actual
