@@ -14,26 +14,19 @@
                 {{ end }}
             </div>
             {{ if .Site.Params.contact.phone }}
-                <div class="pad-icons 
-                {{ if .Site.Params.contact.email }}
-                    col-lg-4
-                {{ else }}
-                    col-lg-8
-                {{ end }}
-                col-lg-offset-2 text-center">
+                <div class="pad-icons col-lg-3 col-lg-offset-2 text-center">
                     <a href="tel:{{ .Site.Params.contact.phone}}">
                     <i class="fa fa-phone fa-4x wow bounceIn"></i>
                     <h4>{{ .Site.Params.contact.phone }}</h4></a>
                 </div>
             {{ end }}
+                <div class="pad-icons col-lg-2 text-center">
+                    <a href="https://wa.me/7809114766">
+                      <i class="fa fa-whatsapp fa-4x wow bounceIn" data-wow-delay=".1s"></i>
+                    <h4>whatsapp</h4></a>
+                </div>
             {{ if .Site.Params.contact.email }}
-                <div class="pad-icons 
-                {{ if .Site.Params.contact.phone }}
-                    col-lg-4
-                {{ else }}
-                    col-lg-8 col-lg-offset-2
-                {{ end }}
-                 text-center">
+                <div class="pad-icons col-lg-2 text-center">
                     <a href="mailto:{{ .Site.Params.contact.email }}">
                       <i class="fa fa-envelope-o fa-4x wow bounceIn" data-wow-delay=".1s"></i>
                     <h4>{{ .Site.Params.contact.email }}</h4></a>
