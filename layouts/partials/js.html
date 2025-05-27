@@ -7,7 +7,7 @@
 {{ "<!-- Custom Theme -->" | safeHTML }}
 <script src="{{ "js/agency.js"| absURL }}"></script>
 
-{{ template "_internal/google_analytics_async.html" . }}
+{{ template "_internal/google_analytics.html" . }}
 
 {{ if .Site.Params.analytics.piwik }}
   {{ partial "_analytics/piwik.html" . }}
